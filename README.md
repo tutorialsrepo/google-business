@@ -1,1 +1,1 @@
-# google-shopping
+# google-business
