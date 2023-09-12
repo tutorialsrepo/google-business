@@ -1,0 +1,128 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  line-height: 1.5;
+  text-decoration: none;
+  color: rgb(117, 113, 113);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0px 50px;
+  border-bottom: 1px solid black;
+}
+
+ul li {
+  display: block;
+  padding: 2px 20px;
+}
+
+nav ul {
+  display: flex;
+}
+
+.nav1 ul,
+.nav2 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.btn {
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+  background-color: rgb(14, 14, 224);
+}
+
+.business-profile {
+  font-size: 20px;
+}
+
+.signin {
+  color: blue;
+}
+
+.home {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 100px;
+}
+
+.home .left-content span {
+  font-size: 30px;
+}
+
+.right-content img {
+  border-radius: 30px;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.features-card {
+  width: 30%;
+  padding: 20px;
+  text-align: center;
+}
+
+.first-impression {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.titles {
+  text-align: center;
+}
+.titles h3 {
+  font-size: 30px;
+}
+
+.impression-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px 100px;
+}
+
+.impression-container-left {
+  max-width: 400px;
+}
+
+.impression-manage {
+  display: block;
+  text-align: center;
+}
+
+footer {
+  padding: 20px;
+  background-color: rgb(252, 249, 249);
+}
+.footer-two {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  border-top: 1px solid #cfc8c8;
+}
+.footer-one {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.footer-one div > ul li:first-child {
+  font-weight: bold;
+}
